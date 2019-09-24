@@ -1,3 +1,5 @@
+// Create a Persian Rug with patterns 
+
 package recursivepatterns;
 
 import java.awt.Color;
@@ -58,20 +60,8 @@ public class PersianRug {
 	}
 
 	public static void main(String args[]) {
-		//
-		// Leave the following line commented out, but once you
-		//   have things working, uncomment it, and also uncomment
-		//   the similar line at the end of this method.
-		// Uncommenting those lines will run the graphics code
-		//   in double-buffering mode, so that your image will appear
-		//   almost instantaneously, instead of being drawn one line
-		//   at a time.
-		//
-		//  Here is the line to uncomment:
-		//
-		StdDraw.show(10);   // don't forget to uncomment the other line at the end
-		//
 
+		StdDraw.show(10);  
 
 		//
 		// Generate a palette of colors
@@ -97,12 +87,10 @@ public class PersianRug {
 		// The color index of each surrounding side is 0
 		//
 		persianRug(palette, 0, 0, 1, 0, 0, 0, 0);
-		//
-		// Also uncomment this line when you have things working
-		//   to speed up the drawing:
-		//
+		
+
 		StdDraw.show(10);
-		//
+		
 	}
 
 }
