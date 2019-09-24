@@ -1,3 +1,5 @@
+// Calculate the probability of people born on exactly the same month / day with random birthday
+
 package arrays;
 import cse131.ArgsProcessor;
 
@@ -13,7 +15,6 @@ public class Birthday {
 		for (int i = 0 ; i < N ; i = i + 1) {
 			int month = (int)(12*Math.random()+1);
 			int day = (int)(31*Math.random()+1);
-			//		System.out.println(i + "  " + month + "  " + day);
 			birthday[month-1][day-1] = birthday[month-1][day-1] + 1;
 		}
 
@@ -95,14 +96,6 @@ public class Birthday {
 		}
 		System.out.println();
 		System.out.println("On Average, " + shareTotal / 372 + "% of people born on exactly the same day");
-
-
-
-
-
-
-
-
 
 	}
 }
