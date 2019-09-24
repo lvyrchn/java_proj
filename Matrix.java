@@ -1,3 +1,5 @@
+// Complete a variety of calculations of matrix 
+
 package matrix;
 
 public class Matrix {
@@ -6,8 +8,6 @@ public class Matrix {
 
 	/**
 	 * The Matrix is based on the supplied two-dimensional array of values.
-	 * Be sure to make your own copy of the values, so that changes to the
-	 *    array outside of this class do not affect your work.
 	 * @param values
 	 */
 	public Matrix(double[][] in) {
@@ -33,8 +33,6 @@ public class Matrix {
 	}
 
 	/**
-	 * You must complete this method, or the equals(Object) test will always
-	 *   return false. 
 	 * Arrays one and two are considered
 	 * equal if and only if:
 	 *   1) They have the same shape (number of rows and columns agree)
@@ -176,7 +174,7 @@ public void exchangeRows(int i, int j){
 }
 
 /**
- * My gift to you.  This returns a String representation of
+ * This returns a String representation of
  * the Matrix.  The contents of each row is separated by a tab (\t)
  * so that columns (kind of) line up.  Each row is separated by a
  * newline (\n) so that the output looks like a matrix.  The output
