@@ -1,3 +1,5 @@
+// Draw a recursive triangle
+
 package lab6;
 
 import java.awt.Color;
@@ -5,8 +7,6 @@ import java.awt.Color;
 import sedgewick.StdDraw;
 
 public class Triangles {
-
-
 
 	public static void tri(double x, double y, double size) {
 
@@ -33,9 +33,7 @@ public class Triangles {
 		
 		tri(0.5,0,0.5);
 
-
 	}
-
 
 }
 
