@@ -1,3 +1,5 @@
+// Record how the mouse moves 
+
 package mousefollower;
 
 import sedgewick.StdDraw;
@@ -10,7 +12,6 @@ public class FollowTheMouse {
 	 */
 	public static double[] getMousePosition() {
 		return new double[] { StdDraw.mouseX(), StdDraw.mouseY() };   
-		// FIXME
 	}
 	/**
 	 * Draw a ball of radius r at the specified location
@@ -40,7 +41,6 @@ public class FollowTheMouse {
 		double[] oldPosition = new double[] {0.5,0.5};
 
 		while (true) {
-			//			StdDraw.clear();
 
 			double[] mousePosition = getMousePosition();
 			double[] newPosition = changePosition(oldPosition, mousePosition, 0.01);
@@ -49,7 +49,6 @@ public class FollowTheMouse {
 			oldPosition = newPosition;
 
 			StdDraw.show(10); 
-
 
 		}
 
