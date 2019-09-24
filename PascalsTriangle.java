@@ -1,3 +1,5 @@
+// Create a Pascal's triangle
+
 package arrays;
 import cse131.ArgsProcessor;
 
